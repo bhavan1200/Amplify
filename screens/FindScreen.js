@@ -1,7 +1,6 @@
 import React from 'react';
 import {View, Text, Button } from "react-native";
 import { createStackNavigator } from '@react-navigation/stack';
-import ExtraScreen1 from './ExtraSScreen1';
 import { Ionicons } from "@expo/vector-icons";
 import { useSelector } from 'react-redux';
 
@@ -18,7 +17,7 @@ const FindStackScreen = () => {
           <Ionicons name="ios-menu" size={30} color="black" onPress={() => {navigation.openDrawer()}} />
         )
       }}/>
-      <FindStack.Screen name="Extra" component={ExtraScreen1}/>
+      {/* <FindStack.Screen name="Extra" component={ExtraScreen1}/> */}
     </FindStack.Navigator>
   )
  

@@ -1,6 +1,6 @@
 projects:
-  BoyakiGql:
-    schemaPath: amplify/backend/api/BoyakiGql/build/schema.graphql
+  myapp:
+    schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
     excludes:
@@ -10,9 +10,6 @@ projects:
         codeGenTarget: javascript
         generatedFileName: ''
         docsFilePath: src/graphql
-        region: ap-south-1
-        apiId: null
-        maxDepth: 3
 extensions:
   amplify:
     version: 3
